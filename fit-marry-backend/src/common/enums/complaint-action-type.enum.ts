@@ -1,0 +1,7 @@
+export enum ComplaintActionType {
+  WARN = "WARN",
+  SUSPEND = "SUSPEND",
+  BAN = "BAN",
+  MESSAGE_DELETE = "MESSAGE_DELETE",
+  CONVERSATION_CLOSE = "CONVERSATION_CLOSE",
+}

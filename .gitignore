@@ -1,0 +1,56 @@
+node_modules/
+
+# Workspace and editor files
+.vscode/
+.DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript / coverage
+coverage/
+*.tsbuildinfo
+
+# Next.js
+fit-marry-admin/.next/
+fit-marry-admin/out/
+
+# Expo / React Native
+fit-marry-mobile/node_modules/
+fit-marry-mobile/.expo/
+fit-marry-mobile/dist/
+fit-marry-mobile/web-build/
+fit-marry-mobile/android/
+fit-marry-mobile/ios/
+fit-marry-mobile/expo-env.d.ts
+
+# NestJS / backend build artifacts
+fit-marry-backend/node_modules/
+fit-marry-backend/dist/
+fit-marry-backend/coverage/
+
+# Generated reports and temporary outputs
+fit-marry-backend/jest-*.txt
+fit-marry-backend/jest-results.json
+fit-marry-backend/prisma_migrate_*.txt
+fit-marry-backend/prisma-generate-output.txt
+fit-marry-mobile/tsc-*.txt
+fit-marry-mobile/tsc-run.log
+
+# Package manager artifacts
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions

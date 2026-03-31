@@ -1,0 +1,13 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": ["<rootDir>/**/*.e2e-spec.ts"],
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "rootDir": ".",
+  "transformIgnorePatterns": [
+    "node_modules/(?!(@scure|otplib|@otplib|@noble)/)"
+  ],
+  "transform": {
+    "^.+\\.[tj]sx?$": ["ts-jest", { "tsconfig": "<rootDir>/../tsconfig.json" }]
+  }
+}
