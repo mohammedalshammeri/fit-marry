@@ -91,6 +91,7 @@ enum CallStatus {
 }
 
 enum TransactionType {
+  REGISTRATION_FEE
   TOPUP
   PROFILE_CHANGE_FEE
   MINUTES_DEDUCT
